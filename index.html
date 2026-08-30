@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSEC | TrendSetterz Excellence Club</title>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- SWEET ALERT -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- QR CODE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <!-- LOGO -->
+            <a href="#home" class="brand">
+                <img src="/assets/logo.png" alt="TSEC Logo">
+                <div class="brand-text">
+                    <span> TSEC </span>
+                    <small> TrendSetterz Excellence Club </small>
+                </div>
+            </a>
+
+            <!-- NAVIGATION -->
+            <nav class="navbar" id="navbar">
+                <a href="#about"> About Us </a>
+                <a href="#events"> Events </a>
+                <a href="#team"> Team </a>
+                <a href="#contact"> Contact Us </a>
+                <a href="#main" class="nav-register" id="navRegister"> Register Now </a>
+            </nav>
+
+            <!-- MOBILE MENU -->
+            <button type="button" class="menu-btn" id="menuBtn" aria-label="Open navigation menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="glow-sphere glow-1"></div>
+        <div class="glow-sphere glow-2"></div>
+
+        <div class="hero-content">
+            <div class="hero-badge-container">
+                <span class="pulse-dot"></span>
+                <span class="hero-tag">TRENDSETTERZ EXCELLENCE CLUB</span>
+            </div>
+
+            <h1 class="vibrant-title">
+                Think.
+                <span class="gradient-text">Create.</span>
+                <span class="accent-glow">Inspire.</span>
+            </h1>
+
+            <p class="hero-description">
+                A community built to encourage creativity, leadership, innovation and excellence.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#main" class="primary-btn vibrant-btn" id="heroRegister">
+                    <span>Register Now</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#about" class="secondary-btn glass-btn">
+                    <i class="fa-solid fa-compass"></i>
+                    <span>Explore TSEC</span>
+                </a>
+            </div>
+
+            <div class="hero-pills">
+                <div class="pill-item">
+                    <i class="fa-solid fa-bolt"></i>
+                    <span>Innovation Driven</span>
+                </div>
+                <div class="pill-item">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Peer Networking</span>
+                </div>
+                <div class="pill-item">
+                    <i class="fa-solid fa-award"></i>
+                    <span>Excellence Standard</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section class="section about-section" id="about">
+        <div class="section-heading">
+            <span> WHO WE ARE </span>
+            <h2> About <strong> TSEC </strong> </h2>
+            <div class="heading-line"></div>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-content">
+                <p>
+                    TrendSetterz Excellence Club (TSEC) is a student-driven community focused on developing
+                    creativity, leadership, communication and professional excellence. The club provides
+                    students with opportunities to learn, collaborate, participate and grow beyond the
+                    traditional classroom environment.
+                </p>
+                <p>
+                    Through events, workshops, competitions and collaborative activities, TSEC aims to create
+                    an environment where students can discover their potential, exchange ideas and build
+                    meaningful connections. The club encourages students to step forward, take initiative and
+                    become confident future leaders.
+                </p>                
+            </div>
+
+            <div class="about-highlight">
+                <div class="highlight-card">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h3>Innovation First</h3>
+                    <p>Fostering forward-thinking ideas, technical creativity, and practical problem-solving solutions.</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>Vibrant Network</h3>
+                    <p>Building a powerful community of peers, mentors, and industry leaders for lifelong collaboration.</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h3>Skill Acceleration</h3>
+                    <p>Empowering personal transformation through hands-on leadership, communication, and technical domain mastery.</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fa-solid fa-trophy"></i>
+                    <h3> Excellence</h3>
+                    <p>Setting benchmarks in execution, competition performance, and ethical professional standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="section events-section" id="events">
+        <div class="section-heading">
+            <span> OUR ACTIVITIES </span>
+            <h2> Events & <strong> Experiences </strong> </h2>
+            <div class="heading-line"></div>
+        </div>
+
+        <!-- PREVIOUS EVENTS -->
+        <div class="event-category previous-category">
+            <div class="category-title">
+                <h3> Previous Events </h3>
+                <span> Our journey so far </span>
+            </div>
+
+            <div class="previous-events-marquee" aria-label="Previous TSEC events">
+                <div class="previous-events-track">
+                    <div class="previous-event-image"><img src="/assets/p1.jpg" alt="TSEC Previous Event" onerror="this.style.display='none'"></div>
+                    <div class="previous-event-image"><img src="/assets/p2.jpg" alt="TSEC Previous Event" onerror="this.style.display='none'"></div>
+                    <div class="previous-event-image"><img src="/assets/p3.jpg" alt="TSEC Previous Event" onerror="this.style.display='none'"></div>
+                    <div class="previous-event-image"><img src="/assets/p4.jpg" alt="TSEC Previous Event" onerror="this.style.display='none'"></div>
+                    <div class="previous-event-image"><img src="/assets/p5.png" alt="TSEC Previous Event" onerror="this.style.display='none'"></div>
+                    <div class="previous-event-image"><img src="/assets/p6.png" alt="TSEC Previous Event" onerror="this.style.display='none'"></div>
+                    <div class="previous-event-image"><img src="/assets/p8.png" alt="TSEC Previous Event" onerror="this.style.display='none'"></div>
+                    <div class="previous-event-image"><img src="/assets/p7.png" alt="TSEC Previous Event" onerror="this.style.display='none'"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- UPCOMING EVENTS -->
+        <div class="event-category upcoming-category">
+            <div class="category-title">
+                <h3> Upcoming Events </h3>
+                <span> What's coming next </span>
+            </div>
+
+            <div class="event-grid">
+                <div class="event-card upcoming-card">
+                    <div class="event-image"></div>
+                    <div class="event-info">
+                        <span class="event-date"> UPCOMING </span>
+                        <h3> Upcoming Event </h3>
+                        <p> Event details will be updated here. </p>
+                        <a href="#main" class="event-link">
+                            Register Now <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="event-card upcoming-card">
+                    <div class="event-image"></div>
+                    <div class="event-info">
+                        <span class="event-date"> UPCOMING </span>
+                        <h3> Upcoming Event </h3>
+                        <p> Event details will be updated here. </p>
+                        <a href="#main" class="event-link">
+                            Register Now <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN REGISTRATION -->
+    <section class="main-registration" id="main">
+        <div class="container">
+            <section class="membership">
+                <div class="section-heading">
+                    <span> JOIN TSEC </span>
+                    <h2> Choose Your <strong> Membership Plan </strong> </h2>
+                    <div class="heading-line"></div>
+                </div>
+
+                <p class="section-text"> Select the membership that best suits your journey with TSEC. </p>
+
+                <div class="cards">
+                    <!-- BASIC MEMBERSHIP -->
+                    <div class="card basic">
+                        <div class="offer"> SAVE ₹100 </div>
+                        <h3> Basic Membership </h3>
+                        <div class="price-box">
+                            <span class="old-price"> ₹299 </span>
+                            <h1> ₹199 </h1>
+                        </div>
+                        <ul>
+                            <li> ✔ Orientation Entry </li>
+                            <li> ✔ Official Membership </li>
+                            <li> ✔ Participation Certificate </li>
+                            <li> ✔ Workshops </li>
+                            <li> ✔ Club Events </li>
+                            <li> ✔ Community Access </li>
+                            <li> ✔ Networking Sessions </li>
+                            <li> ✔ Regular Club Updates </li>
+                        </ul>
+                        <button type="button" class="premium-btn" onclick="startRegistration('Basic Membership', 199)">
+                            Register for ₹199
+                        </button>
+                    </div>
+
+                    <!-- PREMIUM MEMBERSHIP -->
+                    <div class="card premium">
+                        <div class="offer premium-offer"> MOST POPULAR </div>
+                        <h3> Premium Membership </h3>
+                        <div class="price-box">
+                            <span class="old-price"> ₹499 </span>
+                            <h1> ₹299 </h1>
+                        </div>
+                        <ul>
+                            <li> ✔ Everything in Basic </li>
+                            <li> ✔ Premium Workshops </li>
+                            <li> ✔ Exclusive Events </li>
+                            <li> ✔ Leadership Opportunities </li>
+                            <li> ✔ Priority Registration </li>
+                            <li> ✔ Mentorship Sessions </li>
+                            <li> ✔ Internship Guidance </li>
+                            <li> ✔ Recognition &amp; Rewards </li>
+                            <li> ✔ Career Guidance </li>
+                            <li> ✔ Exclusive Community Access </li>
+                        </ul>
+                        <button type="button" class="premium-btn" onclick="startRegistration('Premium Membership', 299)">
+                            Register for ₹299
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section team-section" id="team">
+        <div class="section-heading">
+            <span> MEET THE PEOPLE </span>
+            <h2> Our Core <strong> Team </strong> </h2>
+            <div class="heading-line"></div>
+        </div>
+
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="team-image"><img src="/assets/urmika.png" alt="Urmika Sharma"></div>
+                <div class="team-details">
+                    <h3> Urmika Sharma </h3>
+                    <span> PRESIDENT </span>
+                    <div class="social-links">
+                        <a href="mailto:2501301010@geetauniversity.edu.in"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/urmikasharma/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image"><img src="/assets/krish.png" alt="Krish Garg"></div>
+                <div class="team-details">
+                    <h3> Krish Garg </h3>
+                    <span> FINANCE TRACKER </span>
+                    <div class="social-links">
+                        <a href="mailto:2501301038@geetauniversity.edu.in"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/garg-krish0001/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image"><img src="/assets/harshil.png" alt="Harshil"></div>
+                <div class="team-details">
+                    <h3> Harshil </h3>
+                    <span> FINANCE TRACKER </span>
+                    <div class="social-links">
+                        <a href="mailto:2505301056@geetauniversity.edu.in"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/harshil-chugh/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image"><img src="/assets/mehak.png" alt="Mehak"></div>
+                <div class="team-details">
+                    <h3> Mehak </h3>
+                    <span> FINANCE TRACKER </span>
+                    <div class="social-links">
+                        <a href="mailto:2617401007@geetauniversity.edu.in"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/mehak127/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image"><img src="/assets/labdhi.png" alt="Labdhi Jain"></div>
+                <div class="team-details">
+                    <h3> Labdhi Jain </h3>
+                    <span> COMMUNICATION VIGILANCE </span>
+                    <div class="social-links">
+                        <a href="mailto:2510305040@geetauniversity.edu.in"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/labdhi-jain-452430380/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image"><img src="/assets/aditya.jpeg" alt="Aditya Jaiswal"></div>
+                <div class="team-details">
+                    <h3> Aditya Jaiswal </h3>
+                    <span> COMMUNICATION VIGILANCE </span>
+                    <div class="social-links">
+                        <a href="mailto:2501301060@geetauniversity.edu.in"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/adityajaiswal07/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image"><img src="/assets/sakshi.png" alt="Sakshi"></div>
+                <div class="team-details">
+                    <h3> Sakshi </h3>
+                    <span> EVENT DOCUMENTATION </span>
+                    <div class="social-links">
+                        <a href="mailto:2505301013@geetauniversity.edu.in"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/sakshi-patra/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image"><img src="/assets/mannu.png" alt="Mannu"></div>
+                <div class="team-details">
+                    <h3> Mannu </h3>
+                    <span> EVENT MANAGEMENT </span>
+                    <div class="social-links">
+                        <a href="mailto:2501301115@geetauniversity.edu.in"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/mannu-chaurasia-327684388/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image"><img src="/assets/aarohi.png" alt="Aarohi"></div>
+                <div class="team-details">
+                    <h3> Aarohi </h3>
+                    <span> VENUE BOOKING </span>
+                    <div class="social-links">
+                        <a href="mailto:2401301154@geetauniversity.edu.in"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/aarohi-kucchal"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image"><img src="/assets/manik.png" alt="Manik"></div>
+                <div class="team-details">
+                    <h3> Manik Narula</h3>
+                    <span> OUTREACH LEAD </span>
+                    <div class="social-links">
+                        <a href="mailto:2511304006@geetauniversity.edu.in"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/m%C3%A1%C3%B1%C3%AFk-%C3%B1%C3%A4r%C3%BCl%C3%A4-/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image"><img src="/assets/rana.png" alt="Sakshi Rana"></div>
+                <div class="team-details">
+                    <h3> Sakshi Rana </h3>
+                    <span> DATA MANAGEMENT </span>
+                    <div class="social-links">
+                        <a href="mailto:2401301123@geetauniversity.edu.in"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/sakshi-rana-595630323/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image"><img src="/assets/aghiad.png" alt="Aghiad Aljbaaee"></div>
+                <div class="team-details">
+                    <h3> Aghiad </h3>
+                    <span> DATA MANAGEMENT </span>
+                    <div class="social-links">
+                        <a href="mailto:2501301170@geetauniversity.edu.in"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/aghiad-aljbaaee"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image"><img src="/assets/neha.jpeg" alt="Neha"></div>
+                <div class="team-details">
+                    <h3> Neha </h3>
+                    <span> CONTENT & DIGITAL MEDIA LEAD </span>
+                    <div class="social-links">
+                        <a href="mailto:2510305001@geetauniversity.edu.in"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/neha-chhoker-5120b3380/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-image"><img src="/assets/dhanya.png" alt="Sakshi Rana"></div>
+                <div class="team-details">
+                    <h3> Dhanya </h3>
+                    <span> EDITOR IN CHIEF </span>
+                    <div class="social-links">
+                        <a href="mailto:2510305007@geetauniversity.edu.in"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/dhanya-kalshan-09425738a/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <img src="/assets/logo.png" alt="TSEC Logo">
+                        <div class="footer-logo-text">
+                            <span>TSEC</span>
+                            <small>TrendSetterz Excellence Club</small>
+                        </div>
+                    </a>
+                    <p class="footer-description">
+                        Empowering students through innovation, creativity, leadership, and professional excellence.
+                    </p>
+                    <div class="footer-social-icons">
+                        <a href="https://www.linkedin.com/company/tsecgfs/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/wearetrendsetterz.official" target="_blank" rel="noopener" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="mailto:gfs@geetauniversity.edu.in" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#events"><i class="fa-solid fa-chevron-right"></i> Events</a></li>
+                        <li><a href="#team"><i class="fa-solid fa-chevron-right"></i> Core Team</a></li>
+                        <li><a href="#main"><i class="fa-solid fa-chevron-right"></i> Membership</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Get Involved</h4>
+                    <ul>
+                        <li><a href="#main"><i class="fa-solid fa-chevron-right"></i> Join Club</a></li>
+                        <li><a href="#main"><i class="fa-solid fa-chevron-right"></i> Basic Plan</a></li>
+                        <li><a href="#main"><i class="fa-solid fa-chevron-right"></i> Premium Plan</a></li>
+                        <li><a href="#events"><i class="fa-solid fa-chevron-right"></i> Upcoming Events</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Connect With Us</h4>
+                    <p class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Geeta University, Panipat, Haryana</span>
+                    </p>
+                    <p class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:gfs@geetauniversity.edu.in">gfs@geetauniversity.edu.in</a>
+                    </p>
+                    <p class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+91 93668 42735</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p class="copyright">
+                    © 2026 <strong>TrendSetterz Excellence Club</strong>. All Rights Reserved.
+                </p>
+                <div class="footer-bottom-links">
+                    Made with ❤️ by Krish Garg
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- REGISTRATION MODAL -->
+    <div class="modal-overlay" id="registrationModal">
+        <div class="registration-modal">
+            <button class="modal-close" type="button" onclick="closeRegistration()" aria-label="Close registration">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="registration-header">
+                <span> JOIN TSEC </span>
+                <h2> Registration </h2>
+                <p> Become a part of the TrendSetterz Excellence Club. </p>
+            </div>
+
+            <div class="progress">
+                <div class="progress-step active" id="progress1"> 1 </div>
+                <div class="progress-line"></div>
+                <div class="progress-step" id="progress2"> 2 </div>
+            </div>
+
+            <!-- STEP 1 -->
+            <section id="formStep">
+                <h2> Registration Details </h2>
+                <p class="modal-subtitle"> Fill your details before making the payment. </p>
+                <form id="registrationForm" novalidate>
+                    <div class="form-grid">
+                        <div class="field full">
+                            <label for="fullName"> Full Name * </label>
+                            <input type="text" id="fullName" maxlength="80" required>
+                        </div>
+                        <div class="field">
+                            <label for="rollNumber"> Roll Number * </label>
+                            <input type="text" id="rollNumber" maxlength="30" required>
+                        </div>
+                        <div class="field">
+                            <label for="course"> Course * </label>
+                            <select id="course" required>
+                                <option value=""> Select Course </option>
+                                <option> B.Tech </option>
+                                <option> BCA </option>
+                                <option> MCA </option>
+                                <option> BBA </option>
+                                <option> B.COM </option>
+                                <option> MBA </option>
+                                <option> BA </option>
+                                <option> MA </option>
+                                <option> B.SC FS </option>
+                                <option> B.SC HM </option>
+                                <option> B.SC ND </option>
+                                <option> M.SC </option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="specialization"> Specialization * </label>
+                            <input type="text" id="specialization" maxlength="80" required>
+                        </div>
+                        <div class="field">
+                            <label for="year"> Year of Study * </label>
+                            <select id="year" required>
+                                <option value=""> Select Year </option>
+                                <option> 1st Year </option>
+                                <option> 2nd Year </option>
+                                <option> 3rd Year </option>
+                                <option> 4th Year </option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="email"> Email ID * </label>
+                            <input type="email" id="email" maxlength="120" required>
+                        </div>
+                        <div class="field">
+                            <label for="phone"> Phone Number * </label>
+                            <input type="tel" id="phone" inputmode="numeric" maxlength="10" pattern="[0-9]{10}" required>
+                        </div>
+                    </div>
+
+                    <div class="selected-plan-box">
+                        <span> <strong> Selected Plan</strong></span>
+                        <strong id="selectedPlanText"> - </strong>
+                        <b id="selectedAmountText"> ₹0 </b>
+                    </div>
+
+                    <button class="primary-btn" type="submit">
+                        Continue to Payment →
+                    </button>
+                </form>
+            </section>
+
+            <!-- STEP 2 — PAYMENT -->
+            <section id="paymentStep" class="hidden">
+                <h2> Complete Payment </h2>
+                <p class="modal-subtitle"> Pay the exact amount and then enter your UTR / reference ID. </p>
+
+                <div class="payment-summary">
+                    <span id="paymentPlanText"> Membership </span>
+                    <strong id="paymentAmountText"> ₹0 </strong>
+                </div>
+
+                <div class="qr-box">
+                    <div id="upiQr"></div>
+                </div>
+
+                <p class="payment-help">
+                    Scan the QR with any UPI app. On mobile, use the button below to open the UPI payment screen directly.
+                </p>
+
+                <button class="primary-btn" type="button" onclick="openCurrentUPI()">
+                    📱 Open UPI App &amp; Pay
+                </button>
+
+                <div class="utr-area">
+                    <label for="utr"> UTR / Transaction Reference ID * </label>
+                    <input type="text" id="utr" minlength="12" maxlength="16" autocomplete="off" placeholder="Enter UTR / Reference ID">
+                    <small> Enter the UTR exactly as shown in your UPI app/bank receipt. </small>
+                </div>
+
+                <button class="success-btn" id="verifyBtn" type="button" onclick="verifyAndRegister()" disabled>
+                    Verify UTR &amp; Register
+                </button>
+
+                <button class="back-btn" type="button" onclick="backToForm()">
+                    ← Back to Registration
+                </button>
+            </section>
+        </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+</body>
+
+</html>
